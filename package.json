@@ -1,0 +1,28 @@
+{
+  "name": "generate-pdf",
+  "version": "1.0.0",
+  "description": "PDF generate demo",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nensi22/generate-pdf.git"
+  },
+  "author": "Nensi Kumbhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nensi22/generate-pdf/issues"
+  },
+  "homepage": "https://github.com/nensi22/generate-pdf#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cros": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1"
+  }
+}
