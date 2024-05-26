@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req,res)=>{
-    getResult(res, 200,  "Hey. Its my testing routes","Get routes successfully")
+    console.log("Default routes")
+    return getResult(res, 200,  "Hey. Its my testing routes","Get routes successfully")
 })
 
 app.listen(config.PORT, ()=>{
